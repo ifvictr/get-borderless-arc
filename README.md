@@ -1,6 +1,10 @@
-# Borderless Arc
+# Get Borderless Arc
 
 A script that activates the borderless Arc experience.
+
+## How it works
+
+This enables the `hide-scrim-border-enabled` feature flag in Arc’s preferences file.
 
 ## Steps
 
