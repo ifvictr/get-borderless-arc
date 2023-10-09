@@ -2,11 +2,15 @@
 
 A script that activates the borderless Arc experience.
 
+## Demo
+
+Video here: https://twitter.com/ifvictr/status/1711508526999498788
+
 ## How it works
 
 This enables the `hide-scrim-border-enabled` feature flag in Arc’s preferences file.
 
-## Steps
+## Setup
 
 Open the Terminal and run the following commands:
 
