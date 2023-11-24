@@ -76,7 +76,10 @@ if [ $? -ne 0 ]; then
 fi
 echo "│ Set hideScrimBorderEnabled to YES"
 
-open -a Arc
+# `open` needs to be retried because it fails every now and then. Not sure what causes this.
+while open -a Arc &> /dev/null; [ $? -ne 0 ]; do
+	sleep 1
+done
 echo "│ Opened Arc"
 
 echo "└ Done!"
